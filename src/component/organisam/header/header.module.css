@@ -1,0 +1,48 @@
+.lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid grey;
+
+    background-color: grey;
+    padding: 1px 1px 1px 1px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+
+}
+
+.logoss {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen  and (max-width : 500px) {
+   .lists{
+    display: none;
+   }
+   .nav{
+    margin-left: 60vw;
+   }
+}
+
+@media screen  and (min-width : 500px) {
+
+   .nav{
+    display: none;
+   }
+   .lists{
+    margin-left: 30vw;
+   }
+}
+

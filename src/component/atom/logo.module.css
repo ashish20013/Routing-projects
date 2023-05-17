@@ -1,0 +1,15 @@
+
+
+ .logos{
+    display: flex;
+    justify-content: flex-start;
+    
+} 
+
+img{
+    border-radius: 50px;
+    
+    height: 60px;
+    height: 60px;
+    
+}
